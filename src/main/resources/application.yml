@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/hj_cs?useSSL=true&serverTimezone=UTC
+      username: root
+      password: 200209
+      driver-class-name: com.mysql.cj.jdbc.Driver
